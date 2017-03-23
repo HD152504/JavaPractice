@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package org.dimigo.basic;
 
 import java.util.Random;
