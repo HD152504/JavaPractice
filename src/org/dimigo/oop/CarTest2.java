@@ -10,36 +10,13 @@ package org.dimigo.oop;
  * @author : lg
  * @version : 1.0
  */
-public class CarTest {
+public class CarTest2 {
     public static void main(String[] args) {
-        // create new car ref var
-        Car genesis = new Car();
-        Car k7 = new Car();
-        Car sm7 = new Car();
 
-        // set genesis field
-        genesis.setColor("검정색");
-        genesis.setCompany("현대자동차");
-        genesis.setMaxSpeed(225);
-        genesis.setModel("제네시스");
-        genesis.setPrice(50000000);
-
-        // set k7 field
-        k7.setColor("흰색");
-        k7.setCompany("기아자동차");
-        k7.setMaxSpeed(246);
-        k7.setModel("K7");
-        k7.setPrice(40000000);
-
-        // set sm7 field
-        sm7.setColor("회색");
-        sm7.setCompany("삼성자동차");
-        sm7.setMaxSpeed(200);
-        sm7.setModel("SM7");
-        sm7.setPrice(38000000);
-        int genesisprice = genesis.getPrice();
-        int k7price = k7.getPrice();
-        int sm7price = sm7.getPrice();
+        // create new ref var & set field
+        Car2 genesis = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
+        Car2 k7 = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
+        Car2 sm7 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
 
         // print value
         System.out.println("<< 자동차 목록 >>");

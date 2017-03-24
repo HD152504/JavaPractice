@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package org.dimigo.basic;
 
 /**
