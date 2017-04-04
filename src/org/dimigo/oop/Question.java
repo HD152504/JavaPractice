@@ -24,7 +24,7 @@ public class Question {
         }
         System.out.println("<< 결과 출력 >>");
         StringBuilder sb = new StringBuilder();
-        for(int i=0 ; i<3 ; i++){
+        for(int i = 0; i < 3; i++){
             sb = new StringBuilder();
             System.out.println(sb.append(questions[i] + answers[i] + "입니다."));
         }
