@@ -14,7 +14,7 @@ public class SmartPhoneTest {
     public static void main(String[] args) {
         SmartPhone[] phone = {
                 new IPhone("iPhone 7", "애플", 900000),
-                new IPhone("Galaxy 8", "삼성", 800000),
+                new Galaxy("Galaxy 8", "삼성", 800000),
         };
 
         for (SmartPhone p: phone ) {
@@ -25,7 +25,6 @@ public class SmartPhoneTest {
             p.turnOff();
             System.out.println();
         }
-
 
 
     }
